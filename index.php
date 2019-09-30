@@ -23,9 +23,9 @@ if (isset($_POST['submit'])) {
 ?>
 
 <body>
-    <h1>budget Calculator</h1>
+    <h1>Budget Calculator</h1>
     <form action="index.php" method="POST">
-        <label>Money Spent on </label>
+        <label>Money spent on </label>
         <input type="text" name="activity" placeholder="where did you spend" value="<?php echo $activity ?>" required> <br>
         <label>Amount Spend</label>
         <input type="number" name="amount" placeholder="amount in ruppes" value="<?php echo $amount ?>" required><br>
